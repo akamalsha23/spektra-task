@@ -430,8 +430,8 @@
         "typeHandlerVersion": "2.19",
         "autoUpgradeMinorVersion": true,
         "settings": {
-          "ModulesUrl": "https://github.com/akamalsha23/spektra-task/blob/master/ARM_template/install_iis.ps1.zip?raw=true"
-          "ConfigurationFunction": "ContosoWebsite.ps1\\IISWebserver",
+          "ModulesUrl": "https://github.com/akamalsha23/spektra-task/blob/master/ARM_template/install_iis.ps1.zip?raw=true",
+          "ConfigurationFunction": "install_iis.ps1\\IISWebserver",
           "Properties": {
             "MachineName": "[variables('vmName2')]"
           }
@@ -452,7 +452,6 @@
         "LinuxEUSPIP": {
             "type": "object",
             "value": "[reference(resourceId('Microsoft.Network/publicIPAddresses/', 'spektrapipeus1')).IpAddress]"
+       } 
     }
 }
-}
-  
