@@ -32,7 +32,7 @@
     "subnetName2": "SpektraSubnetW1",
     "subnetPrefix1": "10.0.0.0/24",
     "subnetPrefix2": "172.16.0.0/24",
-    "location1": "westus2",
+    "location1": "eastus",
     "location2": "westus",
     "subnetRef1": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName1'), variables('subnetName1'))]",
     "subnetRef2": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName2'), variables('subnetName2'))]",
